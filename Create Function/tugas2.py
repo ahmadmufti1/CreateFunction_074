@@ -4,3 +4,4 @@
 
 r = float(input("masukkan nilai radius : "))
 calculate_circle_area = lambda r: 3.14 * r ** 2
+print("area radius :", calculate_circle_area(r))
