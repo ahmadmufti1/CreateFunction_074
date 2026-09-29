@@ -9,3 +9,7 @@ def conferts_temperature(value,unit):
         return (value - 32) * 5/9
     else:
         return "unit harus 'C' atau 'F'."
+
+input_value = float(input("Masukkan nilai suhu: "))
+input_unit = input("Masukkan satuan suhu C/F (Gunakan Huruf Kapital): ")
+print(conferts_temperature(input_value, input_unit))
